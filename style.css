@@ -71,9 +71,6 @@ header > * {
     width: 130%;
     display: inline;
     margin: 0 auto;
-    position: relative;
-    left: -15%;
-    top: 10px;
 }
 
 
