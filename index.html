@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><p class="username">Juan Pablo</p><div class="profile_pic_container"><a href="#" class="profile"><img src="images/profile.png" alt="profile" class="profile_pic"></a></div>
-        <a href="#" class="header_menu">
-            <div class="lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
+    <header><p class="username">nombre apellido segundo apellido</p><div class="profile_pic_container"><a href="#" class="profile"><img src="images/profile.png" alt="profile" class="profile_pic"></a></div>
+        <div class="header_hamburger_container" tabindex="1">
+            <i class="hamburger_mask" tabindex="1"></i>
+            <a class="header_hamburger_button" >
+                <div class="hamburger_button_icon">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+            </a>
+            <div class="dropdown-content">
+                <a href="#">Perfil</a>
+                <a href="#">Mensajes</a>
+                <a href="#">Actualizaciones</a>
+                <div class="blank"></div>
+                <a href="#">Salir</a>
             </div>
-        </a>  
-    
+        </div>    
+
     </header>
     <div class="main_container">
+        
+
         <div class="breadcrumb_container">
             <ul class="breadcrumb">
                 <li><a href="#">Tablero</a></li>
@@ -26,12 +38,35 @@
                 <li>Actividad</li>
             </ul>
         </div>
-        <div class="page_content"></div>
+        <div class="page_content_container">
+            <div class="main_nav_container">
+                <table class="main_nav_table">
+                    <tr class="hidden"><td><a href="#">Tablero</a></td><td><a href="#"><div class="triangle"></div></a></td></tr>
+                    <tr class="hidden"><td><a href="#">Actividad</a></td><td><a href="#"><div class="triangle"></div></a></td></tr>
+                    <tr class="hidden"><td><a href="#">Mi primer huerto</a></td><td><a href="#"><div class="triangle"></div></a></td></tr>
+                    <tr class="current"><td><a href="#">Actividad</a></td><td><a href="#"><div class="triangle"></div></a></td></tr>
+                    
+
+                </table>
+            </div>
+
+
+            <div class="activity_container">
+                <h2 class="activity_title">Actividad 1. Mi preimera planta</h2>
+                <p class="activity_text">Objetivo: Comprender el cuidado y la conservación a partir de cosechar nuestra primera plantapor medio de tierra, fruto o semillas y agua para dicha actividad. Se le proporionará los materiales como se muestra lo siguente:</p>
+                <div class="content_images_container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1174/1174670.png" alt="" class="content_image">
+                    <img src="https://cdn2.iconfinder.com/data/icons/people-ii-flat-colorful/2048/6137_-_Man_Watering_Plant-1024.png" alt="" class="content_image">
+                </div>
+                <p class="activity_text">Realizar una captura de pantalla de la actividad en un documento de Word describir la actividad que se realizó en la primera planta</p>
+                <p class="activity_text">Toda actividad debe de tener su folio y su nombre, guardario en .docx o .pdf</p>
+                <button class="submit_homework">Enviar Tarea</button>
+            </div>
+        </div>
     </div>
     <footer></footer>
 
 
 
-    <div class="button"><div class="triangle"></div></div>
 </body>
 </html>
