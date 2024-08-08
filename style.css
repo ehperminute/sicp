@@ -284,6 +284,14 @@ header > * {
     font-weight: 600;
 }
 
+.main_nav_table tr.current {
+    background-color: #dddddd;
+}
+
+.main_nav_table tr.current a {
+    color: #6e6e6e;
+}
+
 .main_nav_table tr.hidden .triangle {
     display: none;
 }
@@ -358,7 +366,7 @@ header > * {
     height: 0;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 9px solid gainsboro;
+    border-left: 9px solid rgb(156, 156, 156);
     float: right;
     float: right;
     vertical-align: middle;
