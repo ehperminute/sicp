@@ -44,12 +44,15 @@ header > * {
     overflow: hidden;
 }
 
+.profile_pic_container a {
+    text-align: center;
+}
+
 .profile_pic {
-    width: 130%;
-    display: inline;
-    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+    margin: auto;
     position: relative;
-    left: -15%;
     top: 10px;
 }
 
